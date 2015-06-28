@@ -13,6 +13,8 @@
 		18E829491B3D07B700564DE7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E829481B3D07B700564DE7 /* Images.xcassets */; };
 		18E8294C1B3D07B700564DE7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E8294A1B3D07B700564DE7 /* LaunchScreen.xib */; };
 		18E829581B3D07B700564DE7 /* SubclassingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E829571B3D07B700564DE7 /* SubclassingTests.swift */; };
+		18E829621B3D099D00564DE7 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E829611B3D099D00564DE7 /* Pet.swift */; };
+		18E829641B3D113900564DE7 /* PetDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E829631B3D113900564DE7 /* PetDog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		18E829511B3D07B700564DE7 /* SubclassingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubclassingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E829561B3D07B700564DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E829571B3D07B700564DE7 /* SubclassingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubclassingTests.swift; sourceTree = "<group>"; };
+		18E829611B3D099D00564DE7 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		18E829631B3D113900564DE7 /* PetDog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetDog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				18E829411B3D07B700564DE7 /* AppDelegate.swift */,
 				18E829431B3D07B700564DE7 /* ViewController.swift */,
+				18E829611B3D099D00564DE7 /* Pet.swift */,
+				18E829631B3D113900564DE7 /* PetDog.swift */,
 				18E829451B3D07B700564DE7 /* Main.storyboard */,
 				18E829481B3D07B700564DE7 /* Images.xcassets */,
 				18E8294A1B3D07B700564DE7 /* LaunchScreen.xib */,
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E829621B3D099D00564DE7 /* Pet.swift in Sources */,
 				18E829441B3D07B700564DE7 /* ViewController.swift in Sources */,
+				18E829641B3D113900564DE7 /* PetDog.swift in Sources */,
 				18E829421B3D07B700564DE7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +353,7 @@
 				INFOPLIST_FILE = Subclassing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -355,6 +364,7 @@
 				INFOPLIST_FILE = Subclassing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -411,6 +421,7 @@
 				18E8295D1B3D07B700564DE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18E8295E1B3D07B700564DE7 /* Build configuration list for PBXNativeTarget "SubclassingTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +430,7 @@
 				18E829601B3D07B700564DE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
